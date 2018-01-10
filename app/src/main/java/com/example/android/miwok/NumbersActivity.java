@@ -43,6 +43,7 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("nine");
         words.add("ten");
 
+        //Find the root view of the whole layout
         LinearLayout rootView = (LinearLayout)findViewById(R.id.rootView);
 
         int i = 0;
